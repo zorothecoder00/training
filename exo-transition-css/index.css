@@ -1,0 +1,24 @@
+body
+{
+	background-color: darkorchid;
+}
+
+.img-transition
+{
+	transition: transform 0.5s ease , opacity 0.5s ease; * Transition fluide */
+}
+
+.container-fluid:hover .img-left
+{
+	transform: translateX(-25%); /* Déplace l'image à gauche */
+}
+
+.container-fluid:hover .img-right
+{
+	transform: translateX(25%); /* Déplace l'image à droite */
+}
+
+.container-fluid:hover .img-left ,.container-fluid:hover .img-right
+{
+	opacity: 0.7;
+}
