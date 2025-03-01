@@ -1,0 +1,46 @@
+body
+{
+	color: white;
+	font-family: Arial, sans-serif;
+}
+
+.paragraphe
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.top
+{
+	background: url("dortmundgirl.jpg");
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	padding: 20px;
+	margin-bottom: 100px;
+
+}
+
+
+.bottom
+{
+	background: url("dortmundgirl.jpg");
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+	padding: 20px;
+
+}
+
+
+
+h1,h2
+{
+	z-index: 2;
+   
+}
